@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dat Doan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+    <nav class="nav">
+        <!-- 
+        <div class="nav-name">
+            <p>Dat Doan</p>
+        </div>
+    -->
+
+        <ul class="nav-list">
+            <li>
+                <a href="#welcome">About</a>
+            </li>
+            <li>
+                <a href="#projects">Work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="welcome-section" id="welcome">
+        <h1>Web Developer</h1>
+        <p>I'm self-taught and aiming to be a master!
+            I'll keep building, keep learning, keep interating.
+            Inevitably I'll good enough for an Entry-Level level job.
+            Check out my projects! 
+        </p>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <h2 class="projects-section-header">My projects</h2>
+        <div class="projects-grid">
+            <a href="https://14doan.github.io/iphone/" class="project project-tile" target="_blank">
+                <img class="project-image" src="images/iphonePage.png" alt="iphone 13 pro page">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Product Landing Page
+                    <span class="code">&#47;&gt;</span>
+            
+                </p>
+            </a>
+            <a href="https://14doan.github.io/survey/" class="project project-tile" target="_blank">
+                <img src="images/IMG_2225.jpeg" alt="form display" class="project-image">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Survey Form
+                    <span class="code">&#47;&gt;</span> 
+                </p>
+            </a>
+            <a href="https://14doan.github.io/tribute/" class="project project-tile" target="_blank">
+                <img src="images/tributeSteve.png" alt="tribute page" class="project-image">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Tribute Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://14doan.github.io/gsn/" class="project project-tile" target="_blank">
+                <img src="images/gsnScreen.png" alt="GSN page" class="project-image">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Eccomerce Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="/" class="btn btn-show-all" target="_blank"> 
+                Show All <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+    </section>
+<!--
+    the above chunk of code is all under one main parent:project-section.
+    under it are 4 children, all links. Firt 3 links are named the same, 2names:
+    project project-tile. For they serve the same purpose, with 2 clickable children, 
+    <img>(project-image) and <p>(project title). <p> has its own child <span>, an inline
+    tag which serve the purpose of expressing code. purpose is YET KNOWN.
+    4th child has differnt names: btn and btn-show-all. with 1 child <i> an icon tag,
+    of 2 classes: fas & fa-chevron-right    
+-->
+    <section id="contact" class="contact-section">
+
+        <div class="contact-section-header">
+            <h2>How To Reach Me</h2>
+            <p>Give me an opportunity!</p>
+        </div>
+        
+        <div class="contact-links">
+            <a href="mailto:14doan@gmail.com" class="btn contact-details" target="_blank">
+                <i class="fas fa-at"> Mail</i>
+            </a>
+            <a href="tel:07912348751" class="btn contact-details" target="_blank">
+                <i class="fas fa-mobile"> Call</i>
+            </a>
+            <a href="https://github.com/14doan" class="btn contact-details" target="_blank">
+                <i class="fab fa-github"> GitHub</i>
+            </a>
+        </div>
+
+    </section>
+
+<!--
+    the above code is for contacts. Mother is classed as contact-section.
+    her id is: contact. Has 2 children, both containers tf <div>. First serves as a header,
+    classed as: contact-section-header. with 2 kids, one is a header <h2>, 
+    the other is <p>.
+    
+    Second child is a containter (div) for links, tf(therefore) classed as: contact-links. 
+    Each link, is a button that directs to a new page in a new tab. tf classed as: btn & contact-details.
+    all has an icon-child, with 2 classes like previous code block,
+    fas & its specificName. NEW: mailto:example@mail.com and tel:4343, inside attri-href,
+    built-in effects?
+        
+-->
+
+
+    
+</body>
+</html
